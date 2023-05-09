@@ -1,0 +1,31 @@
+.txt1 {
+    font: 15px;
+}
+
+.txt2 {
+    font: small-caps 30px/40px;
+}
+
+.cap {
+    font: caption;
+}
+
+.icon {
+    font: icon;
+}
+
+.menu {
+    font: menu;
+}
+
+.scap {
+    font: small-caption;
+}
+
+.stbar {
+    font: status-bar;
+}
+
+.mbox {
+    font: message-box;
+}

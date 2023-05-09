@@ -1,0 +1,11 @@
+body {
+    background-image: url('../../bit.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+div {
+    width: 80%;
+    height: 20000px;
+}

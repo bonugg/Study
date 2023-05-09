@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블의 구조를 잡아주는 thead, tbody, tfoot</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            width: 80px;
+            height: 30px;
+        }
+
+        thead, tfoot {
+            background: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            네이버클라우드 과정 현황
+        </caption>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>신청인원</th>
+                <th>재적인원</th>
+                <th>현재인원</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1기</th>
+                <td>30</td>
+                <td>2</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <th>2기</th>
+                <td>30</td>
+                <td>5</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th>3기</th>
+                <td>30</td>
+                <td>3</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <th>4기</th>
+                <td>30</td>
+                <td>4</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <th>5기</th>
+                <td>30</td>
+                <td>1</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>150</td>
+                <td>15</td>
+                <td>135</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

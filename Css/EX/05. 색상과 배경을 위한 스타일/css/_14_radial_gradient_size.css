@@ -1,0 +1,37 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box1 {
+    background: green;
+    background: -webkit-radial-gradient(30% 40%, circle closest-side, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle closest-side, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle closest-side, white, yellow, green);
+    background: radial-gradient(circle closest-side at 30% 40%, white, yellow, green);
+}
+
+.box2 {
+    background: green;
+    background: -webkit-radial-gradient(30% 40%, circle closest-corner, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle closest-corner, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle closest-corner, white, yellow, green);
+    background: radial-gradient(circle closest-corner at 30% 40%, white, yellow, green);
+}
+
+.box3 {
+    background: green;
+    background: -webkit-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+    background: radial-gradient(circle farthest-side at 30% 40%, white, yellow, green);
+}
+
+.box4 {
+    background: green;
+    background: -webkit-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+    background: radial-gradient(circle farthest-corner at 30% 40%, white, yellow, green);
+}

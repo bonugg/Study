@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블에 설명을 붙여주는 figure, figcaption</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <figure>
+        <figcaption>
+            <!--caption태그와 동일하게 다른 태그들을 사용해서 스타일을 입힐 수 있다.-->
+            <p>
+                요즘 자주 사용되는 <b>SPA 언어</b>
+            </p>
+        </figcaption>
+        <table>
+            <tr>
+                <th>언어</th>
+                <th>제조사</th>
+                <th>개발일시</th>
+            </tr>
+            <tr>
+                <th>리액트</th>
+                <td>메타(구 페이스북)</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <th>뷰</th>
+                <td>MIT</td>
+                <td>2012</td>
+            </tr>
+        </table>
+    </figure>
+</body>
+</html>

@@ -1,0 +1,16 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    background-image: url('../../bit.png');
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-position: left center;
+}
+
+.box2 {
+    background-position: 250px 250px;
+}

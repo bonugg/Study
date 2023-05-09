@@ -1,0 +1,12 @@
+div {
+    width: 500px;
+    height: 300px;
+}
+
+.box {
+    background: blue;
+    background: -webkit-linear-gradient(right bottom, blue, white);
+    background: -moz-linear-gradient(right bottom, blue, white);
+    background: -o-linear-gradient(right bottom, blue, white);
+    background: linear-gradient(to right bottom, blue, white);
+}

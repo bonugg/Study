@@ -1,0 +1,23 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('../../bit.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.box1 {
+    border: 5px solid rgba(0, 0, 0, .1);
+    background-origin: border-box;
+}
+
+.box2 {
+    background-origin: padding-box;
+}
+
+.box3 {
+    background-origin: content-box;
+}

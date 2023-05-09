@@ -1,0 +1,19 @@
+li {
+    font-variant: small-caps;
+}
+
+#content1 {
+    font-weight: bold;
+}
+
+#content2 {
+    font-weight: bolder;
+}
+
+#content3 {
+    font-weight: lighter;
+}
+
+#content4 {
+    font-weight: 900;
+}

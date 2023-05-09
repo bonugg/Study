@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input의 다양한 속성</title>
+</head>
+<body>
+    <form action="">
+        <h3>회원가입</h3>
+        <div>
+            <label>아이디
+                <input type="text" autofocus required placeholder="20자 이내로 입력하세요.">
+            </label>
+        </div>
+        <div>
+            <label>비밀번호
+                <input type=" password" required placeholder="특수문자, 숫자, 영문자 조합으로 9자리 이상 입력하세요.">
+            </label>
+        </div>
+        <div>
+            <label>이름
+                <input type="text" required value="홍길동" readonly>
+            </label>
+        </div>
+        <div>
+            <label>주소
+                <input type="text">
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="회원가입">
+        </div>
+    </form>
+</body>
+</html>

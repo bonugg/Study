@@ -1,0 +1,13 @@
+p {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 15px;
+}
+
+.ind1 {
+    text-indent: 15px;
+}
+
+.ind2 {
+    text-indent: 5%;
+}

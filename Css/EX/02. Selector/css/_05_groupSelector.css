@@ -1,0 +1,17 @@
+h1, h2 {
+    color: orange;
+    text-decoration: underline;
+}
+
+.bluetxt, .greentxt, #green {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bluetxt {
+    color: blue;
+}
+
+.greentxt, #green {
+    color: green;
+}

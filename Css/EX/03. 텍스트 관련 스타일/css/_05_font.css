@@ -1,0 +1,31 @@
+.txt1 {
+    font: 700 italic 15px/30px 굴림;
+}
+
+.txt2 {
+    font: 200 small-caps 30px/40px 돋움;
+}
+
+.cap {
+    font: caption;
+}
+
+.icon {
+    font: icon;
+}
+
+.menu {
+    font: menu;
+}
+
+.scap {
+    font: small-caption;
+}
+
+.stbar {
+    font: status-bar;
+}
+
+.mbox {
+    font: message-box;
+}

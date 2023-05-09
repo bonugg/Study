@@ -1,0 +1,6 @@
+{"model":"아반떼", "price":1500}
+{"model":"아반떼", "price":2500}
+{"model":"아반떼", "price":3500}
+{"model":"그랜저", "price":4500}
+{"model":"G70", "price":6500}
+{"model":"G80", "price":7500}

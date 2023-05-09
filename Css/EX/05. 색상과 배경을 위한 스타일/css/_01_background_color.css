@@ -1,0 +1,22 @@
+body {
+    background-color: #0094ff;
+}
+
+div {
+    background-color: orange;
+    width: 80%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+h1 {
+    background-color: lightgreen;
+}
+
+p {
+    background-color: rgba(180, 180, 230, 1);
+    line-height: 30px;
+    border: 10px solid rgba(0, 0, 0, .1);
+    padding: 20px;
+    background-clip: content-box;
+}

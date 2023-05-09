@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>셀 병합해주는 colspan, rowspan</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr{
+            height: 20px;
+        }
+        th, td {
+            width: 200px;
+            height: 15px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th rowspan="2">이름</th>
+        <td rowspan="2">홍길동</td>
+        <th rowspan="2">연락처</th>
+        <td rowspan="2">010-1111-1111</td>
+    </tr>
+    <tr>
+        <th></th>
+        <td></td>
+        <th></th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>주소</th>
+        <td colspan="7">강남</td>
+    </tr>
+    <tr>
+        <th>자기소개</th>
+        <td colspan="7">안녕하세요.</td>
+    </tr>
+</table>
+</body>
+</html>

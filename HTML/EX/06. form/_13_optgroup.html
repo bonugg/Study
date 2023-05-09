@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>항목을 그룹화해주는 optgroup</title>
+</head>
+<body>
+    <form action="">
+        <h3>자신있는 언어</h3>
+        <!--
+            size : 드롭다운 목록 표출 개수를 지정
+            multiple : ctrl + 항목 선택 시 여러개의 선택 할 수 있는 옵션
+        -->
+        <select name="language" id="programLanguage">
+            <!--
+                value : 전송될 값을 지정
+                seleted : 페이지가 로딩될 때 선택되어 있는 항목을 지정
+            -->
+            <optgroup label="컴파일 언어">
+                <option value="java">자바</option>
+                <option value="c">C언어</option>
+                <option value="c++">C++</option>
+            </optgroup>
+            <optgroup label="DBMS">
+                <option value="mysql" selected>MySQL</option>
+                <option value="oracle">오라클</option>
+            </optgroup>
+            <optgroup label="인터프리트 언어">
+                <option value="javascript">자바스크립트</option>
+                <option value="python">파이썬</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>

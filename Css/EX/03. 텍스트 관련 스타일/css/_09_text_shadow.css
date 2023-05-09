@@ -1,0 +1,24 @@
+h1 {
+    font-size: 100px;
+    font-family: 'Arial Rounded MT';
+}
+
+.shadow1 {
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+.shadow2 {
+    text-shadow: 5px 5px 3px red;
+}
+
+.shadow3 {
+    color: beige;
+    text-shadow: 7px -7px 5px black;
+}
+
+.shadow4 {
+    color: black;
+    /*여러가지 그림자를 ,로 묶어서 지정*/
+    text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;
+}

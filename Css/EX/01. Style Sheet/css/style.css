@@ -1,0 +1,8 @@
+ul {
+    color: blue;/*글자색은 상속되어 li태그에도 영향을 준다.*/
+    list-style-type: square;
+}
+
+h1, h3, h5 {
+    color: blue;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자를 조절하는 number, range 속성</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="memberCnt">참여인원</label>
+            <!--
+                type = number, range일 때
+                사용할 수 있는 속성들
+                min: 최소값 설정
+                max: 최대값 설정
+                step: 증가값 설정
+                value: 초기값 설정
+            -->
+            <input type="number" id="memberCnt" min="1" max="20" step="1" value="0">
+        </div>
+        <div>
+            <label for="level">난이도</label>
+            <input type="range" id="level" value="1" min="1" max="3">
+        </div>
+    </form>
+</body>
+</html>

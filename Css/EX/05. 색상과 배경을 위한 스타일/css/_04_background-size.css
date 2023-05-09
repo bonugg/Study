@@ -1,0 +1,27 @@
+div {
+    width: 150px;
+    height: 100px;
+    background-image: url(../../kakao.png);
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-size: auto;
+}
+
+.box2 {
+    background-size: contain;
+}
+
+.box3 {
+    background-size: cover;
+}
+
+.box4 {
+    background-size: 200px 150px;
+}
+
+.box5 {
+    background-size: 60% 40%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>브라우저별 접두사</title>
+    <style>
+        .box {
+            position: absolute;
+            left: 50px;
+            top: 70px;
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            border: 2px solid green;
+            text-align: center;
+        }
+        /*해당 태그에 마우스커서 올렸을 때 적용될 스타일*/
+        .box:hover {
+            /*표준화되지 않은 css 속성들에 대한 브라우저별 설정*/
+            -webkit-transform: rotate(15deg);
+            -moz-transform: rotate(15deg);
+            -o-transform: rotate(15deg);
+            -ms-transform: rotate(15deg);
+            transform: rotate(15deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Mouse Over</div>
+</body>
+</html>

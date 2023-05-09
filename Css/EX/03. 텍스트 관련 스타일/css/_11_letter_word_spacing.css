@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px;
+}
+
+.spacing1 {
+    letter-spacing: 0.2rem;
+}
+
+.spacing2 {
+    letter-spacing: 0.5rem;
+}
+
+.spacing3 {
+    word-spacing: 0.5rem;
+    direction: rtl;
+}

@@ -1,0 +1,11 @@
+.content {
+    border: 1px solid gray;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content:hover {
+    overflow: visible;
+}

@@ -1,0 +1,12 @@
+div {
+    width: 500px;
+    height: 300px;
+}
+
+.box1 {
+    background: blue;
+    background: -webkit-radial-gradient(10% 10%, circle, white, blue);
+    background: -moz-radial-gradient(10% 10%, circle, white, blue);
+    background: -o-radial-gradient(10% 10%, circle, white, blue);
+    background: radial-gradient(circle at 10% 10%, white, blue);
+}
